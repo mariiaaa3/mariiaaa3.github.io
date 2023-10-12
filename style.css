@@ -4,51 +4,62 @@ body {
 color: #354649;  
 }
 
+.menu {
+	text-align: right;
+	width: auto;
+	background-color: #354649;
+	
+}
+
 h1 {
 font-family: 'Righteous', cursive; 
 font-style: bold;
   position: absolute;
-  top: 150px;
-  left: 728px;
-  font-size: 40px;
+  top: 110px;
+  left: 636px;
+  font-size: 50px;
   color: #354649;
-  
+   
 }
 
 #homeparagraph {
 font-style: regular;
 position: absolute;
-top: 212px;
-left: 728px;
+top: 195px;
+left: 636px;
 font-size: 18px;
 }
-<style>
+
         button {
   display: block;
-  margin-top: 394px;
-  margin-left: -16px;
+  position: absolute;
+ top: 342px;
+ left: 636px;
   background-color: #354649;
   color: #A3C6C4;
   border: none;
-  padding: 18px 60px;
-  font-size: 18px;
+  padding: 14px 69px;
+  font-size: 23px;
   cursor: pointer;
-  border-radius: 8px;
+  border-radius: 10px;
+  z-index: 9999;
+  font-family: inherit;
 }
-    }
-</style>
+ .button:hover {
+  background-color:#A3C6C4;
+  color: #354649;
+}
+
 
 header {
-  background-color: #A3C6C4;
   font-family: 'Righteous', cursive;
+  background-color: #354649;
 }
 
 ul {
   list-style-type: none;
-  margin: 0 40px 0 40px;
-  padding: 0;
-  overflow: hidden;
-  background-color: #354649 ;
+  margin: 0px 0px -49px 500px;
+  padding: 0px;
 }
 
 li {
@@ -61,13 +72,41 @@ li a {
   display: block;
   color: white;
   text-align: center;
+  position: relative;
+  top: -22px;
+  left: 171px;
   padding: 14px 16px;
   text-decoration: none;
+ 
+}
+
+.wave {
+	position: absolute;
+	z-index: 99999;
+	top: 402px;
+	
 }
 
 .home1 {
         float: right;
     }
+	
+	.p-before {
+		position: absolute;
+		top: 723px;
+		left: 277px;
+	}
+	
+	.l-before {
+		position: absolute;
+		top: 723px;
+		left: 722px;
+		transition: transform 0.5s;
+		
+	}
+	
+
+	
 
 header h2 {
   color: #fff;
@@ -95,16 +134,32 @@ footer p {
 top: 1400px;
 left: 496px;
   
-<style>
+
 .one-column {
   position: relative;
   position: absolute;
+  top: 1000px;
+  left: 200px;
   font-family: 'Righteous', cursive; 
   font-style: bold;
   font-size: 40px;
   color: #354649;
+  
+  
 }
-</style>
+.three-column1 {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  padding: 0px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  background-color: #A3C6C4;
+  grid-gap: 10px; /
+}
+
+.three-column1 div {
+  background-color: #A3C6C4;
+}
 }
 .two-column div {
   margin-right: 10px;
@@ -124,6 +179,63 @@ left: 496px;
   margin-righ: 10px;
   margin-left: 10px;
 }
-  .footer {
-      background-color: #354649;
+  footer {
+	
+    background-color: #354649;
+    padding: 10px;
+	color: #A3C6C4;
+    font-size: 14px;
+    text-align: center;
   }
+   form {
+  width: 568px;
+  padding: 34px;
+  border-radius: 17px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+form h3 {
+  margin-top: 0;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #A3C6C4;
+}
+
+form .name-group {
+  display: flex;
+  gap: 10px;
+}
+
+form .name-group input {
+  flex: 1;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-family: inherit;
+}
+
+form button {
+  margin-left: -433px;
+  top: 385px;
+  padding: 10px 74px;
+  background-color: #A3C6C4;
+  color: #354649;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  margin-top: 10px;
+}
