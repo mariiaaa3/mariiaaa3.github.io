@@ -19,7 +19,7 @@ font-family: 'Righteous', cursive;
 font-style: bold;
   position: absolute;
   top: 110px;
-  left: 636px;
+  left: 712px;
   font-size: 50px;
   color: #354649;
    
@@ -29,15 +29,15 @@ font-style: bold;
 font-style: regular;
 position: absolute;
 top: 195px;
-left: 636px;
+left: 712px;
 font-size: 18px;
 }
 
     .button {
   display: block;
   position: absolute;
- top: 342px;
- left: 636px;
+ top: 360px;
+ left: 712px;
   background-color: #354649;
   color: #A3C6C4;
   border: none;
@@ -149,12 +149,12 @@ li a {
 .portraits {
 	position: absolute;
 	top: -32px;
-	left:0px;
+	left:-70px;
 }
 .landscape {
 	position: absolute;
 	top: -32px;
-	left:0px;
+	left:-70px;
 }
 .wave {
 	position: absolute;
@@ -176,7 +176,7 @@ li a {
 	.l-before {
 		position: absolute;
 		top: 723px;
-		left: 722px;
+		left: 838px;
 		transition: transform 0.5s;
 		
 	}
